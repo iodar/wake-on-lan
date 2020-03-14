@@ -1,0 +1,25 @@
+{
+  "name": "wake-on-lan",
+  "version": "0.1.0",
+  "description": "Wake your network device like it's magic",
+  "main": "index.js",
+  "repository": "git@github.com:iodar/wake-on-lan.git",
+  "author": "iodar <granzowdario@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.1",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  }
+}
